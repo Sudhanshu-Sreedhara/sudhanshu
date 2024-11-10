@@ -1,0 +1,126 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background color */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* Background image */
+    background-image: url('images/Green-arrow-gaming-background-free-download.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+}
+
+/* Header styles */
+header {
+    background-color: #000;
+    color: #1db954;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Container for main content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Semester table styles */
+.semester {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #1db954;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+table th {
+    background-color: #1db954;
+    color: #121212;
+}
+
+table tr:nth-child(even) {
+    background-color: #222;
+}
+
+table tr:nth-child(odd) {
+    background-color: #333;
+}
+
+table tr:hover {
+    background-color: #1db954;
+    color: #000;
+}
+
+/* Result summary section */
+.result-summary {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result-summary p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #1db954;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* Button styling for better interaction */
+button {
+    background-color: #1db954;
+    color: #121212;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b8f43;
+    transform: scale(1.1);
+}

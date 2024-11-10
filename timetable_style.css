@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Pitch black background */
+    color: #00FF00; /* Neon green text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Background image */
+    background-image: url('images/Green-arrow-gaming-background-free-download.jpg'); /* Update path as necessary */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1a1a1a; /* Dark background for navbar */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #00FF00; /* Neon green text for navbar */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #333333; /* Darker background on hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #00FF00; /* Neon green text for footer */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Timetable Section Styles */
+.timetable-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgba(34, 34, 34, 0.9); /* Slightly transparent dark background */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00FF00; /* Neon green heading */
+}
+
+p {
+    color: #00FF00; /* Neon green text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #444444; /* Dark borders for table */
+}
+
+table th {
+    background-color: #1a1a1a; /* Dark background for table headers */
+    color: #00FF00; /* Neon green text for headers */
+}
+
+table tr:nth-child(even) {
+    background-color: #111111; /* Darker background for even rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: #222222; /* Slightly lighter background for odd rows */
+}
+
+table tr:hover {
+    background-color: #333333; /* Darker background on row hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    table th, table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .navbar a {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
